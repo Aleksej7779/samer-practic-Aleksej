@@ -1,4 +1,11 @@
-def hello ():
-  print("Hello, Word!")
-  if __name__ == "__main__": 
-  hello()
+def hello():
+    print("Hello, World!")
+
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+
+if name == "main":
+    hello()
+    greet("Aleksej")
